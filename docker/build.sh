@@ -2,4 +2,5 @@
 
 source ./emsdk_env.sh
 cd ../ffmpeg.js
+make clean-ffmpeg-mp4
 make ffmpeg-mp4.js
