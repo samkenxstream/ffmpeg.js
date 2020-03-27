@@ -34,7 +34,7 @@ WEBM_SHARED_DEPS = \
 	build/opus/dist/lib/libopus.so \
 	build/libvpx/dist/lib/libvpx.so
 
-MP4_MUXERS = mp4 mp3 null
+MP4_MUXERS = mp4 mp3 null adts
 MP4_ENCODERS = libx264 libmp3lame aac
 FFMPEG_MP4_BC = build/ffmpeg-mp4/ffmpeg.bc
 FFMPEG_MP4_PC_PATH = ../x264/dist/lib/pkgconfig
